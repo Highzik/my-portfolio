@@ -1,0 +1,88 @@
+.about-section {
+  background: #24263B;
+  color: #fff;
+  padding-top: 100px;
+  margin-top: 50px;
+  padding-bottom: 100px;
+  scroll-behavior: smooth;
+  /* animation: slideInRight 1s forwards */
+}
+
+/* 
+@keyframes slideInRight {
+  0% {
+    right: -200px;
+  }
+
+  100% {
+    left: 0;
+  }
+} */
+
+.fa-icons {
+  font-weight: bold;
+  font-size: 28px;
+  color: #fff;
+}
+
+.fa-icon-btn {
+  border: none;
+  margin-right: 25px;
+  padding: 7px;
+  border-radius: 100%;
+  background: #24263B;
+  border: 2px solid #ff4a57;
+  transition: 0.5s;
+  margin-bottom: 20px;
+}
+
+.fa-icon-btn:hover {
+  background: #ff4a57;
+  color: #fff;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 35px;
+}
+
+.about-author {
+  font-size: 30px;
+  line-height: 38px;
+  margin-bottom: 40px;
+}
+
+.portfolio-btn {
+  border: 2px solid #ff4a57;
+  width: 200px;
+  padding: 15px 30px;
+  background: #24263B;
+  border-radius: 40px;
+  transition: 0.5s;
+  margin-right: 20px;
+}
+
+.portfolio-btn:hover {
+  background: #ff4a57;
+}
+
+.portfolio-btn>a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.play-icon {
+  font-size: 30px;
+  color: #fff;
+}
+
+.play-icon-btn {
+  border: none;
+  background: #ff4a57;
+  padding: 15px 30px;
+  border-radius: 40px;
+  width: 110px;
+}

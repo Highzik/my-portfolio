@@ -1,0 +1,68 @@
+.css-navbar {
+  background: #1f2235;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: -100;
+  z-index: 100;
+  animation: slideInFromTop 0.5s forwards;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    top: -100px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  color: #FF4A57;
+}
+
+.nav-link:focus {
+  text-decoration-color: #fff;
+  color: #fff;
+}
+
+.logo-01 {
+  width: 220px;
+}
+
+.navbarSupportedContent {
+  display: flex;
+  justify-content: end;
+}
+
+.dropdown-menu {
+  background: #23263A;
+}
+
+.dropdown-item {
+  color: #fff;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.dropdown-item:hover {
+  background: #FF4A57;
+  color: #fff;
+}
+
+.navbar-toggler {
+  background: #FFf;
+}
