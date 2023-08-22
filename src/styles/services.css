@@ -1,0 +1,54 @@
+.service-cont {
+  background: #1f2235;
+  scroll-behavior: smooth;
+  color: #fff;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.my-service {
+  font-weight: bold;
+  font-size: 70px;
+  margin-bottom: 25px;
+}
+
+.horizontal-rule {
+  width: 60px;
+  margin: auto;
+  padding: 2px;
+  border: none;
+  background: #ff4a57;
+}
+
+.about-service {
+  line-height: 35px;
+  font-size: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.sub-container {
+  margin-bottom: 40px;
+}
+
+.column-1 {
+  background: #23263A;
+  border-radius: 8px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.column-1:hover {
+  background: #ff4a57;
+  color: #fff;
+}
+
+.sub-cont {
+  margin-top: 30px;
+}
+
+.fa-icon {
+  font-weight: bold;
+  font-size: 40px;
+  color: #ff4a57;
+}

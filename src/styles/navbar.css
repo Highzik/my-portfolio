@@ -9,7 +9,7 @@
   right: 0;
   top: -100;
   z-index: 100;
-  animation: slideInFromTop 0.5s forwards;
+  animation: slideInFromTop 0.3s forwards;
 }
 
 @keyframes slideInFromTop {
@@ -64,5 +64,6 @@
 }
 
 .navbar-toggler {
-  background: #FFf;
+  background: #ff4a57;
+  border: none;
 }
