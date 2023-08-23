@@ -1,0 +1,50 @@
+.aboutSection {
+  background: #24263B;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  scroll-behavior: smooth;
+}
+
+.aboutMe {
+  font-weight: bold;
+  font-size: 54px;
+  margin-bottom: 30px;
+}
+
+.noteAboutMe {
+  font-size: 22px;
+  font-weight: bold;
+  color: #dbdbdb;
+}
+
+.img-01 {
+  width: 400px;
+}
+
+.sameClassName {
+  color: #ff4a57;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.sameThing {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 0;
+  color: #dbdbdb;
+}
+
+.greetings {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.shortNote {
+  font-size: 18px;
+  color: #dbdbdb;
+  font-weight: bold;
+  margin-bottom: 30px;
+}

@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Home />
       <Services />
-      {/* <About /> */}
+      <About />
       <FaRocket style={rocketLauncher} />
     </>
   )
