@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Services from './components/Services'
+import About from './components/About'
 import { FaRocket } from 'react-icons/fa'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Home />
       <Services />
+      {/* <About /> */}
       <FaRocket style={rocketLauncher} />
     </>
   )
@@ -24,6 +26,7 @@ const rocketLauncher = {
   top: '550px',
   bottom: '0px',
   cursor: 'pointer',
+  transform: 'rotate(-45deg)'
 }
 
 export default App

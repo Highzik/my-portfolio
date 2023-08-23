@@ -33,22 +33,42 @@
 
 .column-1 {
   background: #23263A;
-  border-radius: 8px;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  border-radius: 45px;
+  padding: 35px;
+  transition: 0.2s ease;
+  border: 10px solid #1f2235;
 }
+
 
 .column-1:hover {
   background: #ff4a57;
   color: #fff;
 }
 
-.sub-cont {
-  margin-top: 30px;
+.column-1 .fa-icon {
+  transition: transform 1s ease;
+}
+
+.column-1:hover .fa-icon {
+  transform: rotateY(350deg);
+  color: #fff;
 }
 
 .fa-icon {
   font-weight: bold;
   font-size: 40px;
   color: #ff4a57;
+}
+
+.title {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 23px;
+
+}
+
+.title-note {
+  margin-top: 20px;
+  line-height: 25px;
+  font-size: 18px;
 }

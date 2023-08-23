@@ -19,7 +19,7 @@ const About = () => {
             <button className='fa-icon-btn'><FaLinkedin className='fa-icons' /></button>
             <button className='fa-icon-btn'><FaGithub className='fa-icons' /></button>
             <h2 className='author'>I am Isaac Olayinka</h2>
-            <h3 className='about-author'>I'm Isaac, a Junior Software Developer <br />with 6 months experience in this field</h3>
+            <h3 className='about-author'>I'm Isaac, a Junior Software <br />Developer with 6 months <br />experience in this field</h3>
             <button className='portfolio-btn'><a href='#portfolio'>My Portfolio</a></button>
             <button className='play-icon-btn'><FaPlay className='play-icon' /></button>
           </div>
