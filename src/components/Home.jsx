@@ -5,13 +5,33 @@ import { FaInstagram } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 import { FaPlay } from 'react-icons/fa'
+import { useEffect } from 'react'
+import ScrollReveal from 'scrollreveal'
 
 const About = () => {
+  useEffect(() => {
+    ScrollReveal().reveal('.image-container', {
+      origin: 'right',
+      duration: 2000,
+      delay: 350,
+      distance: '60px',
+      reset: true,
+      easing: 'ease-in-out',
+    });
+    ScrollReveal().reveal('.article-container', {
+      origin: 'left',
+      duration: 2000,
+      delay: 350,
+      distance: '60px',
+      reset: true,
+      easing: 'ease-in-out'
+    })
+  }, []);
   return (
     <>
       <section id='home' className='about-section container-fluid'>
         <div className='row text-center'>
-          <div className="col-md-6"><br /><br /><br /><br /><br /><br />
+          <div className="col-md-6 article-container"><br /><br /><br /><br /><br /><br />
             <button className='fa-icon-btn'><FaFacebook className='fa-icons' /></button>
             <button className='fa-icon-btn'><FaTwitter className='fa-icons' /></button>
             <button className='fa-icon-btn'><FaInstagram className='fa-icons' /></button>

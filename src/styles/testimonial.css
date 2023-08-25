@@ -4,3 +4,23 @@
   padding-bottom: 100px;
   color: #dbdbdb;
 }
+
+.testCont h3 {
+  color: #ff4a57;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.testCont h2 {
+  font-weight: bold;
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+
+.testCont p {
+  color: #dbdbdb;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 15px;
+}

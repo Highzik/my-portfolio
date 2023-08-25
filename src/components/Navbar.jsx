@@ -2,15 +2,22 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '/src/styles/navbar.css'
 import { useEffect } from 'react';
+import ScrollReveal from 'scrollreveal';
 
 const Navbar = () => {
   useEffect(() => {
-    const navBar = document.querySelector('.css-navbar');
-    navBar.classList.add('animate-slide-in');
+    ScrollReveal().reveal('.navigationBar', {
+      origin: 'top',
+      duration: 2000,
+      delay: 350,
+      distance: '60px',
+      reset: true,
+      easing: 'ease',
+    })
   }, []);
   return (
     <>
-      <nav className="navbar navbar-expand-lg css-navbar">
+      <nav className="navbar navbar-expand-lg css-navbar navigationBar">
         <div className='container'>
           <img src="./src/isaac-logo.png" alt="logo-01" className='logo-01' />
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

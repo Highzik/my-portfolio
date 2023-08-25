@@ -9,7 +9,7 @@ const Testimonial = ({ title }) => {
     <div className='container-fluid testimonial'>
       <div className='container'>
         <div className='row'>
-          <div className='col-md-6'>
+          <div className='col-md-6 testCont'>
             <h3>OUR TESTIMONIALS</h3>
             <h2>Happy Client Says</h2>
             <p>"Working with {title} has been an absolute pleasure! His creativity, technical expertise, and attention to detail transformed our vision into a stunning website. Not only did they deliver a visually appealing and user-friendly site, but they also made the entire process smooth and stress-free.</p>

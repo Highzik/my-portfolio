@@ -3,6 +3,11 @@ import { useState } from 'react'
 
 const Portfolio = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
+  // have state as currentImages, setCurrentImage/
+  // function(category)
+  // category to filter
+  // setcurrimage
+  // render img from srate curen
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
   };
