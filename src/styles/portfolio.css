@@ -1,0 +1,51 @@
+.sectionID {
+  padding-bottom: 100px;
+  padding-top: 150px;
+  background: #24263B;
+  color: #fff;
+}
+
+.portfolioShow {
+  font-weight: bold;
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+
+.portfolioNote {
+  font-weight: bold;
+  color: #dbdbdb;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.btnSection {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.sameBtn {
+  border: none;
+  margin-left: 25px;
+  color: #dbdbdb;
+  background: none;
+  font-weight: bold;
+  font-size: 17px;
+  transition: 0.3s ease-in-out;
+  padding: 7px 14px;
+  border-radius: 30px;
+}
+
+.sameBtn:hover {
+  background: #ff4a57;
+}
+
+.imgPT01 {
+  width: 350px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.last-three-images img {
+  max-width: 100%;
+  height: auto;
+}

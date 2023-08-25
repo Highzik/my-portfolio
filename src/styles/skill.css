@@ -1,0 +1,47 @@
+.skillSection {
+  background: #1f2235;
+  color: #fff;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  scroll-behavior: smooth;
+}
+
+.expertise {
+  color: #ff4a57;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.expertiseTitle {
+  font-weight: bold;
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.expertiseNote {
+  font-weight: bold;
+  color: #dbdbdb;
+  margin-bottom: 30px;
+}
+
+.hireBtn {
+  background: #1f2235;
+  color: #dbdbdb;
+  font-weight: bold;
+  border: 2px solid #ff4a57;
+  width: 180px;
+  padding: 12px;
+  border-radius: 30px;
+  transition: 0.3s ease-in-out;
+  margin-bottom: 30px;
+}
+
+.hireBtn:hover {
+  background: #ff4a57;
+}
+
+.hireBtn a {
+  text-decoration: none;
+  color: #dbdbdb;
+}

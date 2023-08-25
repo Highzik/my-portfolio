@@ -7,7 +7,6 @@ import { FaGithub } from 'react-icons/fa'
 import { FaPlay } from 'react-icons/fa'
 
 const About = () => {
-
   return (
     <>
       <section id='home' className='about-section container-fluid'>

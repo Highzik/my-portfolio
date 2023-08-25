@@ -1,0 +1,25 @@
+.awardsSection {
+  background: #23263a;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.elementor-icon {
+  font-weight: bold;
+  font-size: 60px;
+  color: #dbdbdb;
+  margin-bottom: 15px;
+}
+
+.elementor h3 {
+  color: #ff4a57;
+  font-weight: bold;
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.elementor p {
+  color: #dbdbdb;
+  font-weight: bold;
+  font-size: 25px;
+}

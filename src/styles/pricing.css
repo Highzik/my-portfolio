@@ -1,0 +1,91 @@
+.pricing {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background: #1f2235;
+  color: #fff;
+}
+
+.pricingCont {
+  margin-bottom: 50px;
+}
+
+.choosePlan {
+  color: #ff4a57;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.planPrice {
+  font-weight: bold;
+  font-size: 70px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.noteForPrice {
+  color: #dbdbdb;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.flexCont {
+  border: 15px solid #1f2235;
+  padding: 57px;
+  border-radius: 30px;
+  background: #23263A;
+}
+
+.flexCont h2 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.flexCont h3 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.flexCont p {
+  color: #dbdbdb;
+  font-weight: bold;
+}
+
+.flexCont hr {
+  color: #6b6c70;
+  font-weight: bold;
+}
+
+.flexCont button {
+  background: #23263A;
+  color: #dbdbdb;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 25px;
+  padding: 10px;
+  border: 2px solid #ff4a57;
+  width: 150px;
+  border-radius: 30px;
+  transition: 0.3s ease-in-out;
+}
+
+.flexCont button:hover {
+  background: #ff4a57;
+}
+
+.flexCont span {
+  font-weight: bold;
+  color: #dbdbdb;
+  font-size: 17px;
+  position: relative;
+  top: -57px;
+  background: #ff4a57;
+  padding: 4px 30px;
+  border-bottom-right-radius: 23px;
+  border-bottom-left-radius: 23px;
+}
+
+.recommended {
+  border: 2px solid #ff4a57;
+}
