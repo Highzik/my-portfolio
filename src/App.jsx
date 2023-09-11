@@ -8,6 +8,7 @@ import Portfolio from './components/Portfolio'
 import Pricing from './components/Pricing'
 import Apyc from './components/Apyc'
 import Testimonial from './components/Testimonial'
+import Blog from './components/Blog'
 import { FaRocket } from 'react-icons/fa'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Pricing />
       <Apyc />
       <Testimonial />
+      <Blog />
       <FaRocket style={rocketLauncher} />
     </>
   )

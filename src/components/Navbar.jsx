@@ -47,11 +47,11 @@ const Navbar = () => {
                 <a className="nav-link" href="#portfolio" title='Portfolio'>Portfolio</a>
               </li>
               <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="blog" role="button" data-bs-toggle="dropdown" aria-expanded="false" title='Blog'>
+                <a className="nav-link dropdown-toggle" href="#blog" role="button" data-bs-toggle="dropdown" aria-expanded="false" title='Blog'>
                   Blog
                 </a>
                 <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="#blogDetails">Blog Details</a></li>
+                  <li><a className="dropdown-item" href="#blog">Blog Details</a></li>
                 </ul>
               </li>
               <li className="nav-item">
