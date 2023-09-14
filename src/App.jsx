@@ -10,6 +10,8 @@ import Apyc from './components/Apyc'
 import Testimonial from './components/Testimonial'
 import Blog from './components/Blog'
 import { FaRocket } from 'react-icons/fa'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
       <Apyc />
       <Testimonial />
       <Blog />
+      <Contact />
+      <Footer />
       <FaRocket style={rocketLauncher} />
     </>
   )

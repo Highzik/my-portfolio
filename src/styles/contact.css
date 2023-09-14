@@ -1,0 +1,68 @@
+.contactID {
+  background: #1f2235;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #fff;
+}
+
+.contactCont {
+  margin-bottom: 50px;
+}
+
+.contactCont h3 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ff4a5d;
+}
+
+.contactCont h1 {
+  font-weight: 700;
+  font-size: 70px;
+}
+
+.contactCont p {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.bgCont {
+  background: #23263a;
+  border: 10px solid #1f2235;
+  padding: 20px 0;
+}
+
+.bgCont h4 {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: start;
+}
+
+.bgCont p {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: start;
+  margin-left: 20px;
+}
+
+.subContactCont {
+  margin-bottom: 50px;
+}
+
+input,
+textarea {
+  background: #23263a;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 18px;
+  border: 4px solid #1f2235;
+  padding: 20px 40px;
+  border-radius: 4px;
+}
+
+.submitBtn {
+  background: #ff4a5d;
+  border-radius: 40px;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 20px 60px;
+}

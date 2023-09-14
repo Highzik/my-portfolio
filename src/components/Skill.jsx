@@ -1,6 +1,7 @@
 import '/src/styles/skill.css'
 import scrollreveal from 'scrollreveal'
 import { useEffect, useRef } from 'react'
+import { FaArrowCircleRight } from 'react-icons/fa';
 
 const Skill = () => {
   const articleContainerRef = useRef(null);
@@ -26,23 +27,23 @@ const Skill = () => {
             <button className='hireBtn'><a href='#contact'>Hire Me Now</a></button>
           </div>
           <div className='col-md-6' ref={skillContainerRef}>
-            <p>Node JS</p>
-            <span>70%</span>
-            <hr />
-            <p>React JS</p>
-            <span>80%</span>
-            <hr />
-            <p>Angular</p>
-            <span>77%</span>
-            <hr />
-            <p>SEO</p>
-            <span>89%</span>
-            <hr />
+            <p>Node JS <FaArrowCircleRight style={iconDesign} /> 75%</p>
+            <p>React JS <FaArrowCircleRight style={iconDesign} /> 80%</p>
+            <p>Angular <FaArrowCircleRight style={iconDesign} /> 77%</p>
+            <p>SEO <FaArrowCircleRight style={iconDesign} /> 85%</p>
           </div>
         </div>
       </div>
     </section>
   )
+}
+
+const iconDesign = {
+  color: '#ff4a57',
+  fontWeight: 'bold',
+  fontSize: '24px',
+  marginLeft: '30px',
+  marginRight: '30px'
 }
 
 export default Skill

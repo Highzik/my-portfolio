@@ -39,6 +39,10 @@
   background: #ff4a57;
 }
 
+.sameBtn.clicked {
+  border: 2px solid #ff4a57;
+}
+
 .imgPT01 {
   width: 350px;
   margin-bottom: 20px;

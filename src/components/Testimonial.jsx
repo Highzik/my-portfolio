@@ -25,22 +25,17 @@ const Testimonial = ({ title }) => {
   const [author, setAuthor] = useState('Isaac Olayinka');
   const [bio, setBio] = useState('Owner of this Portfolio Page');
   const [image, setImage] = useState('src/isaac-1.png')
-  const [testimonials, setTestimonials] = useState(`"In promotion and of advertising, testimonial show consists of a person's written or a spoken statement extolling the virtue"`);
-
-  const handleClick = () => {
-    let newTestimonial = `"There will be little or no referrals without good testimonials from Clients that have had great jobs done for them"`
-    setTestimonials(newTestimonial);
-  }
 
   const handleLeftClick = () => {
-    setAuthor('Adam Kehinde');
-    setBio('A prolific IOS Developer');
+    setAuthor('Adam Kehinde')
+    setBio('A prolific IOS Developer')
     setImage('src/isaac-2.png')
   }
   const handleRightClick = () => {
     setAuthor('Isaac Olayinka');
     setBio('Owner of this Portfolio Page');
     setImage('src/isaac-1.png')
+
   }
   return (
     <div className='container-fluid testimonial'>
@@ -55,14 +50,13 @@ const Testimonial = ({ title }) => {
           </div>
           <div className='col-md-6' ref={quotePartRef}>
             <div className='secondTestCont'>
-              <p><i>{testimonials}</i></p>
+              <p><i>"In promotion and of advertising, testimonial show consists of a person's written or a spoken statement extolling the virtue"</i></p>
               <FaStar style={iconColor} />
               <FaStar style={iconColor} />
               <FaStar style={iconColor} />
               <FaStar style={iconColor} />
               <FaStar style={iconColor} />
               <FaQuoteRight style={quoteRight} />
-              <p onClick={handleClick} className='seeMore'>See More <FaArrowCircleRight className='rightArrow' /></p>
             </div>
             <div className='row align-items-center'>
               <div className='col-md-3 col-lg-3 isaacImgCont'>
