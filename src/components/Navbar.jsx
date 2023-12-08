@@ -3,6 +3,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '/src/styles/navbar.css'
 import { useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
+import navLogo from '../images/isaac-logo.png'
 
 const Navbar = () => {
   useEffect(() => {
@@ -19,7 +20,7 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg css-navbar navigationBar">
         <div className='container'>
-          <img src="./src/isaac-logo.png" alt="logo-01" className='logo-01' />
+          <img src={navLogo} alt="logo-01" className='logo-01' />
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>

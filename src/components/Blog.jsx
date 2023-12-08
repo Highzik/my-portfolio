@@ -2,6 +2,9 @@ import '/src/styles/blog.css'
 import { FaArrowCircleRight, FaUser } from 'react-icons/fa'
 import { FaCalendar } from 'react-icons/fa'
 import { FaComments } from 'react-icons/fa'
+import imgBlog from '../images/blog.jpg'
+import imgBlog1 from '../images/blog-1.jpg'
+import imgBlog2 from '../images/blog-2.jpg'
 
 const Blog = () => {
   return (
@@ -15,7 +18,7 @@ const Blog = () => {
       <div className='container row'>
         <div className='col-md-6 col-lg-4 firstRowCont my-2'>
           <div className='imgCont'>
-            <img src="/src/blog.jpg" className='blogImg col-12' alt="" />
+            <img src={imgBlog} className='blogImg col-12' alt="" />
           </div>
           <div className="row">
             <div className='col d-flex my-3'>
@@ -29,7 +32,7 @@ const Blog = () => {
         </div>
         <div className='col-md-6 col-lg-4 firstRowCont my-2'>
           <div className='imgCont'>
-            <img src="/src/blog-1.jpg" className='blogImg col-12' alt="" />
+            <img src={imgBlog1} className='blogImg col-12' alt="" />
           </div>
           <div className="row">
             <div className='col d-flex my-3'>
@@ -43,7 +46,7 @@ const Blog = () => {
         </div>
         <div className='col-md-6 col-lg-4 firstRowCont my-2'>
           <div className='imgCont'>
-            <img src="/src/blog-2.jpg" className='blogImg col-12' alt="" />
+            <img src={imgBlog2} className='blogImg col-12' alt="" />
           </div>
           <div className="row">
             <div className='col d-flex my-3'>

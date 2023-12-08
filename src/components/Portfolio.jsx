@@ -1,7 +1,13 @@
 import '/src/styles/portfolio.css'
-import { useState } from 'react'
 import { useEffect, useRef } from 'react'
 import ScrollReveal from 'scrollreveal'
+import imgJeremy from '../images/florian-klauer-mk7D-4UCfmg-unsplash.jpg'
+import imgColin from '../images/colin-carter-w1g2o4J_4Dg-unsplash.jpg'
+import imgKui from '../images/kui-ye-chen-NuOGFo4PudE-unsplash.jpg'
+import imgNagy from '../images/nagy-arnold-X_IvVDuHvDQ-unsplash.jpg'
+import imgOliver from '../images/oliver-pecker-HONJP8DyiSM-unsplash.jpg'
+import imgMukul from '../images/mukul-wadhwa-xpo5BggQo3E-unsplash.jpg'
+// import imgJulian from '../images/julian-0-hayon-HY3l4IeOc3E-unsplash-jpg'
 
 const Portfolio = () => {
   const allArticleRef = useRef(null);
@@ -39,36 +45,36 @@ const Portfolio = () => {
               <div className='col-md-4'>
                 <div className='d-flex flex-column'>
                   <div className='col'>
-                    <img src={'/src/jeremy-perkins-UgNjyPkphtU-unsplash.jpg'} alt="" className='imgPT01 img-fluid' />
+                    <img src={imgJeremy} alt="" className='imgPT01 img-fluid' />
                   </div>
                   <div className='col'>
-                    <img src={'/src/colin-carter-w1g2o4J_4Dg-unsplash.jpg'} alt="" className='imgPT01 img-fluid' />
+                    <img src={imgColin} alt="" className='imgPT01 img-fluid' />
                   </div>
                   <div className='col'>
-                    <img src={'/src/kui-ye-chen-NuOGFo4PudE-unsplash.jpg'} alt="" className='imgPT01 img-fluid' />
-                  </div>
-                </div>
-              </div>
-              <div className='col-md-4'>
-                <div className='d-flex flex-column'>
-                  <div className='col'>
-                    <img src={'/src/florian-klauer-mk7D-4UCfmg-unsplash.jpg'} alt="" className='imgPT01 img-fluid' />
-                  </div>
-                  <div className='col'>
-                    <img src={'/src/nagy-arnold-X_IvVDuHvDQ-unsplash.jpg'} alt="" className='imgPT01 img-fluid' />
+                    <img src={imgKui} alt="" className='imgPT01 img-fluid' />
                   </div>
                 </div>
               </div>
               <div className='col-md-4'>
                 <div className='d-flex flex-column'>
                   <div className='col'>
-                    <img src={'/src/oliver-pecker-HONJP8DyiSM-unsplash.jpg'} alt="" className='imgPT01 img-fluid' />
+                    <img src={imgMukul} alt="" className='imgPT01 img-fluid' />
                   </div>
                   <div className='col'>
-                    <img src={'/src/mukul-wadhwa-xpo5BggQo3E-unsplash.jpg'} alt="" className='imgPT01 img-fluid' />
+                    <img src={imgNagy} alt="" className='imgPT01 img-fluid' />
+                  </div>
+                </div>
+              </div>
+              <div className='col-md-4'>
+                <div className='d-flex flex-column'>
+                  <div className='col'>
+                    <img src={imgOliver} alt="" className='imgPT01 img-fluid' />
                   </div>
                   <div className='col'>
-                    <img src={'/src/julian-o-hayon-HY3l4IeOc3E-unsplash.jpg'} alt="" className='imgPT01 img-fluid' />
+                    <img src={imgKui} alt="" className='imgPT01 img-fluid' />
+                  </div>
+                  <div className='col'>
+                    <img src={imgOliver} alt="" className='imgPT01 img-fluid' />
                   </div>
                 </div>
               </div>

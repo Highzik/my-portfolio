@@ -4,9 +4,10 @@ import { FaQuoteRight } from 'react-icons/fa'
 import { FaChevronLeft } from 'react-icons/fa'
 import { FaChevronRight } from 'react-icons/fa'
 import { useState } from 'react'
-import { FaArrowCircleRight } from 'react-icons/fa'
 import scrollreveal from 'scrollreveal'
 import { useEffect, useRef } from 'react'
+import img1 from '../images/Isaac-1.png'
+import img2 from '../images/Isaac-2.png'
 
 
 const Testimonial = ({ title }) => {
@@ -24,17 +25,17 @@ const Testimonial = ({ title }) => {
   })
   const [author, setAuthor] = useState('Isaac Olayinka');
   const [bio, setBio] = useState('Owner of this Portfolio Page');
-  const [image, setImage] = useState('src/isaac-1.png')
+  const [image, setImage] = useState({ img1 })
 
   const handleLeftClick = () => {
     setAuthor('Adam Kehinde')
     setBio('A prolific IOS Developer')
-    setImage('src/isaac-2.png')
+    setImage({ img2 })
   }
   const handleRightClick = () => {
     setAuthor('Isaac Olayinka');
     setBio('Owner of this Portfolio Page');
-    setImage('src/isaac-1.png')
+    setImage({ img1 })
 
   }
   return (
@@ -60,7 +61,7 @@ const Testimonial = ({ title }) => {
             </div>
             <div className='row align-items-center'>
               <div className='col-md-3 col-lg-3 isaacImgCont'>
-                <img src={image} alt="" className='isaac-img' />
+                <img src={img1} alt="" className='isaac-img' />
               </div>
               <div className='col-md-4 col-lg-5 subIsaacCont'>
                 <h4>{author}</h4>

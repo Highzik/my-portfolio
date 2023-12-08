@@ -7,6 +7,7 @@ import { FaGithub } from 'react-icons/fa'
 import { FaPlay } from 'react-icons/fa'
 import ScrollReveal from 'scrollreveal'
 import { useEffect, useRef } from 'react'
+import img1 from '../images/Isaac-1.png'
 
 const About = () => {
   const imageContainerRef = useRef(null);
@@ -38,7 +39,7 @@ const About = () => {
             <button className='play-icon-btn'><FaPlay className='play-icon' /></button>
           </div>
           <div ref={imageContainerRef} className='image-container col-md-6'>
-            <img src="/src/isaac-1.png" alt="an image of the author" />
+            <img src={img1} alt="an image of the author" />
           </div>
         </div>
       </section>

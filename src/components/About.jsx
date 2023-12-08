@@ -1,6 +1,7 @@
 import '/src/styles/about.css'
 import scrollreveal from 'scrollreveal'
 import { useEffect, useRef } from 'react'
+import img2 from '../images/Isaac-2.png'
 const About = () => {
   const imgContainerRef = useRef(null);
   const artContainerRef = useRef(null);
@@ -24,7 +25,7 @@ const About = () => {
         </div>
         <div className='row rowGap'>
           <div className='col-md-12 col-lg-6 text-center' ref={imgContainerRef}>
-            <img src="/src/isaac-2.png" alt="image of the author" className='img-01' />
+            <img src={img2} alt="image of the author" className='img-01' />
           </div>
           <div className='col-md-12 col-lg-6' ref={artContainerRef}><br /><br /><br /><br />
             <h3 className='greetings'>Hi, There</h3>
