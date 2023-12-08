@@ -1,21 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '/src/styles/navbar.css'
-import { useEffect } from 'react';
-import ScrollReveal from 'scrollreveal';
 import navLogo from '../images/isaac-logo.png'
 
 const Navbar = () => {
-  useEffect(() => {
-    ScrollReveal().reveal('.navigationBar', {
-      origin: 'top',
-      duration: 2000,
-      delay: 350,
-      distance: '60px',
-      reset: true,
-      easing: 'ease',
-    })
-  }, []);
   return (
     <>
       <nav className="navbar navbar-expand-lg css-navbar navigationBar">

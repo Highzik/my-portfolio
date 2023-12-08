@@ -1,6 +1,4 @@
 import '/src/styles/portfolio.css'
-import { useEffect, useRef } from 'react'
-import ScrollReveal from 'scrollreveal'
 import imgJeremy from '../images/florian-klauer-mk7D-4UCfmg-unsplash.jpg'
 import imgColin from '../images/colin-carter-w1g2o4J_4Dg-unsplash.jpg'
 import imgKui from '../images/kui-ye-chen-NuOGFo4PudE-unsplash.jpg'
@@ -10,18 +8,7 @@ import imgMukul from '../images/mukul-wadhwa-xpo5BggQo3E-unsplash.jpg'
 // import imgJulian from '../images/julian-0-hayon-HY3l4IeOc3E-unsplash-jpg'
 
 const Portfolio = () => {
-  const allArticleRef = useRef(null);
-  useEffect(() => {
-    const sr = ScrollReveal({
-      distance: '60px',
-      duration: 2500,
-      reset: true,
-      easing: 'ease'
-    })
-    sr.reveal(allArticleRef.current, { delay: 300, origin: 'bottom' });
-  })
   //clicks to select different images for different sections
-
   return (
     <section id='portfolio' className='container-fluid sectionID'>
       <div className='container text-center'>
@@ -29,7 +16,7 @@ const Portfolio = () => {
         <p className='portfolioNote'>I'm thrilled to invite you to explore my portfolio <br />showcasing some of my recent web design work. <br />It's been an exciting journey, and I'd <br />love to share my projects with you</p>
         <hr className='horizontal-rule' />
       </div>
-      <div ref={allArticleRef}>
+      <div>
         <div className='container-fluid'>
           <div className='container text-center btnSection'>
             <button className='sameBtn'>All Works</button>

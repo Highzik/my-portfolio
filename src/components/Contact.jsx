@@ -1,23 +1,7 @@
 import '/src/styles/contact.css'
 import { FaMapMarker, FaEnvelope, FaPhone } from 'react-icons/fa'
-import ScrollReveal from 'scrollreveal'
-import { useEffect, useRef } from 'react'
 
 const Contact = () => {
-  const leftRevealRef = useRef(null);
-  const bottomRevealRef = useRef(null);
-  const rightRevealRef = useRef(null);
-  useEffect(() => {
-    const sr = ScrollReveal({
-      duration: 2500,
-      distance: '60px',
-      reset: true,
-      easing: 'ease'
-    })
-    sr.reveal(leftRevealRef.current, { delay: 300, origin: 'left' })
-    sr.reveal(bottomRevealRef.current, { delay: 300, origin: 'bottom' })
-    sr.reveal(rightRevealRef.current, { delay: 300, origin: 'right' })
-  })
   return (
     <section id='contact' className='contactID container-fluid'>
       <div className="container text-center contactCont">
@@ -28,15 +12,15 @@ const Contact = () => {
       </div>
       <div className='container subContactCont'>
         <div className='row text-center'>
-          <div className='col-md-4 col-lg-4 bgCont' ref={leftRevealRef}>
+          <div className='col-md-4 col-lg-4 bgCont'>
             <h4><FaMapMarker style={iconColors} /> Locate Us</h4>
             <p>Gbagada, Lagos, Nigeria</p>
           </div>
-          <div className='col-md-4 col-lg-4 bgCont' ref={bottomRevealRef}>
+          <div className='col-md-4 col-lg-4 bgCont'>
             <h4><FaPhone style={iconColors} /> Give us a call</h4>
             <p>Office: (+234)81-294-7633</p>
           </div>
-          <div className='col-md-4 col-lg-4 bgCont' ref={rightRevealRef}>
+          <div className='col-md-4 col-lg-4 bgCont'>
             <h4><FaEnvelope style={iconColors} /> Get it online</h4>
             <p>ajadiisaac99@gmail.com</p>
           </div>

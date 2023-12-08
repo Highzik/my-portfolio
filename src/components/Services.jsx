@@ -5,21 +5,8 @@ import { FaCodepen } from 'react-icons/fa'
 import { FaCamera } from 'react-icons/fa'
 import { FaApple } from 'react-icons/fa'
 import { FaYoast } from 'react-icons/fa'
-import ScrollReveal from 'scrollreveal'
-import { useEffect, useRef } from 'react'
 
 const Services = ({ title, title1 }) => {
-  const column1Ref = useRef(null);
-  useEffect(() => {
-    const sr = ScrollReveal({
-      distance: '60px',
-      duration: 2500,
-      reset: true,
-      easing: 'ease'
-    });
-    sr.reveal(column1Ref, { delay: 350, origin: 'bottom' })
-  }, [])
-
   return (
     <section id='services' className="container-fluid service-cont">
       <div className="row text-center sub-container">
@@ -28,7 +15,7 @@ const Services = ({ title, title1 }) => {
         <p className='about-service'>I'm a Web Developer, a little knowledge into <br /> Photography, a Web Designer, <br />Application Developer, Video Editor, SEO <br />Expert and many more.</p>
         <hr className='horizontal-rule' />
       </div>
-      <div className="container subCont" ref={column1Ref}>
+      <div className="container subCont">
         <div className="row sub-cont">
           <div className="col-lg-4 col-md-6 col-sm-12 column-1">
             <FaGithub className='fa-icon' />

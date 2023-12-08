@@ -4,25 +4,11 @@ import { FaQuoteRight } from 'react-icons/fa'
 import { FaChevronLeft } from 'react-icons/fa'
 import { FaChevronRight } from 'react-icons/fa'
 import { useState } from 'react'
-import scrollreveal from 'scrollreveal'
-import { useEffect, useRef } from 'react'
 import img1 from '../images/Isaac-1.png'
 import img2 from '../images/Isaac-2.png'
 
 
 const Testimonial = ({ title }) => {
-  const clientPartRef = useRef(null);
-  const quotePartRef = useRef(null);
-  useEffect(() => {
-    const sr = scrollreveal({
-      duration: 2500,
-      distance: '60px',
-      easing: 'ease',
-      reset: true,
-    })
-    sr.reveal(clientPartRef.current, { delay: 300, origin: 'left' })
-    sr.reveal(quotePartRef.current, { delay: 300, origin: 'bottom' })
-  })
   const [author, setAuthor] = useState('Isaac Olayinka');
   const [bio, setBio] = useState('Owner of this Portfolio Page');
   const [image, setImage] = useState({ img1 })
@@ -42,14 +28,14 @@ const Testimonial = ({ title }) => {
     <div className='container-fluid testimonial'>
       <div className='container'>
         <div className='row'>
-          <div className='col-md-6 testCont' ref={clientPartRef}>
+          <div className='col-md-6 testCont'>
             <h3>OUR TESTIMONIALS</h3>
             <h2>Happy Client Says</h2>
             <p>"Working with {title} has been an absolute pleasure! His creativity, technical expertise, and attention to detail transformed our vision into a stunning website. Not only did they deliver a visually appealing and user-friendly site, but they also made the entire process smooth and stress-free.</p>
             <p>{title} is a true professional who goes above and beyond to exceed expectations. We couldn't be happier with the results!"</p>
             <button>Learn More</button>
           </div>
-          <div className='col-md-6' ref={quotePartRef}>
+          <div className='col-md-6'>
             <div className='secondTestCont'>
               <p><i>"In promotion and of advertising, testimonial show consists of a person's written or a spoken statement extolling the virtue"</i></p>
               <FaStar style={iconColor} />
